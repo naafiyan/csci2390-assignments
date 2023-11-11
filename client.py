@@ -74,6 +74,9 @@ def count0(keys, dp):
 
 
 if __name__ == "__main__":
+  headers, result = avg(["programming"], "age", True)
+  _pretty_print(headers, result)
+  
   arguments = sys.argv[1:]
   # Print help message
   if len(arguments) == 0 or arguments[0] == "help":
